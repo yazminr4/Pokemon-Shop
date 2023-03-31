@@ -1,0 +1,267 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+.header {
+    height: 100px;
+    width: 100vw;
+    background: #306BB3;
+    border: 1px solid #306BB3;
+    display: flex; 
+    justify-content: space-around;
+    align-items:center;
+}
+
+.logo {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.menu {
+    display: flex;  
+    margin: 0 25px;
+}
+
+nav { 
+    width: 70px;
+}
+
+nav
+
+.blog-item {
+    width: 87.33px;
+    height: 24px;
+    left: 1069px;
+    top: 38px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.buy-cards-item {
+    width: 113.96px;
+    left: 924px;
+    top: 38px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.home-item{ 
+    left: 793px;
+    top: 38px;
+    
+    font-weight: 500;
+    font-size: 16px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    opacity: 0.9;
+}
+    
+.mode-button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    margin-left: 631px;
+
+    letter-spacing: -0.03em;
+
+    color: #306BB3;
+    width: 82px;
+    border-radius: 4px;
+}
+
+.first-text { 
+    position: absolute;
+    width: 350.56px;
+    height: 20.89px;
+    left: 61px;
+    top: 286px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 121.2%;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+
+    color: #1A202C;
+}
+.title { 
+    position: absolute;
+    width: 574.66px;
+    height: 158.35px;
+    left: 61px;
+    top: 330.35px;
+
+    font-size: 40px;
+    line-height: 121.2%;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1A202C;
+}
+
+.main-text {
+    position: absolute;
+    width: 534px;
+    height: 142.96px;
+    left: 61px;
+    top: 480px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #1A202C;
+
+    opacity: 0.45;
+}
+
+.go-to-our-button {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 150px;
+    height: 48.39px;
+    right: 1229px;
+    top: 643.61px;
+    
+    background: #FFFFFF;
+    border-radius: 4px; 
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #1A202C;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.buy-cards-button {
+    position: absolute;
+    width: 106.97px;
+    height: 26.39px;
+    left: 243.51px;
+    top: 654.61px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #1A202C;
+}
+.main-img {
+    position: absolute;
+    width: 638px;
+    height: 508px;
+    left: 743px;
+    top: 226px;
+
+    background: url(ash-leaves-anime.jpg);
+    border-radius: 100px 0px 0px 0px;
+}
+
+.footer { 
+    position: absolute;
+    width: 1440px;
+    height: 383px;
+    left: 1px;
+    top: 833px;
+
+    background: #306BB3;
+
+}
+.vision { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    left: 60px;
+    top: 166px;
+    width: 292px;
+    height: 48px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.sections-footer { 
+    position: absolute;
+    width: 152px;
+    height: 244px;
+    left: 624px;
+    top: 67px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+
