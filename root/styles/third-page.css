@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* header */
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header {
+  height: 100px;
+  background: #306bb3;
+  border: 1px solid #306bb3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  margin-left: 2%;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.mode-button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+
+  letter-spacing: -0.03em;
+
+  color: #306bb3;
+  width: 82px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 4vw;
+  font-weight: 500;
+  color: #486284;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+article > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2%;
+  padding: 2% 3%;
+}
+
+.main-text {
+  max-width: 50%;
+}
+
+.main-img {
+  max-width: 40%;
+}
+.subtitle {
+  max-width: 50%;
+  text-align: center;
+}
+
+.footer {
+  height: 383px;
+  background: #306bb3;
+  border: 1px solid #306bb3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+}
+
+.vision-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  height: 65%;
+}
+
+.vision {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  height: 70%;
+}
+
+.sections-footer {
+  color: #ffffff;
+  mix-blend-mode: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65%;
+}
