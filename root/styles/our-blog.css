@@ -62,39 +62,65 @@ a {
 }
 
 h1 {
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 500;
   color: #486284;
+  margin-bottom: 2%;
 }
 
-article {
+section {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  padding: 50px 20px;
+  margin-top: 5%;
 }
 
-article > div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 2%;
-  padding: 2% 3%;
-}
-
-.main-text {
-  max-width: 50%;
-}
-
-.main-img {
-  max-width: 40%;
-}
 .subtitle {
-  max-width: 50%;
+  max-width: 35%;
   text-align: center;
 }
+
+.filter {
+  margin: 2% 0px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  border-bottom: 2px double #90a3bf;
+}
+
+.filter-option {
+  color: #1a202c99;
+  font-size: 1.5vw;
+  margin: 2% 0px;
+  width: 100%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  border-bottom: 2px double #90a3bf;
+  text-align: center;
+}
+
+.filter-option:hover {
+  color: #1a202c;
+  font-weight: bold;
+  border-bottom: 2px double #1a202c;
+}
+
+/* lorem */
+
+.lorem-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.lorem-text {
+  width: 32%;
+}
+
+/* fotter */
 
 .footer {
   height: 383px;
