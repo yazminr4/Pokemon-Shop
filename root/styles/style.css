@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/* header */
 a {
   text-decoration: none;
   color: #ffffff;
@@ -23,7 +24,7 @@ a {
 
 .logo {
   width: 150px;
-  /* margin-left: 2%; */
+  margin-left: 2%;
 }
 
 .menu-container {
@@ -46,7 +47,6 @@ a {
   letter-spacing: -0.03em;
   color: #ffffff;
   opacity: 0.9;
-  /* margin: 20px; */
 }
 
 .mode-button {
@@ -61,72 +61,49 @@ a {
   border-radius: 4px;
 }
 
-.first-text {
-  position: absolute;
-  width: 350.56px;
-  height: 20.89px;
-  left: 61px;
-  top: 286px;
+/* body */
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 121.2%;
-  font-weight: bold;
-
+.main-container {
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  padding: 100px 0;
+}
 
-  color: #1a202c;
+.main-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-text {
+  font-size: 16px;
+  padding: 20px 0;
+  font-weight: bold;
+  color: #1a202c; 
 }
 .title {
-  position: absolute;
-  width: 574.66px;
-  height: 158.35px;
-  left: 61px;
-  top: 330.35px;
-
-  font-size: 40px;
-  line-height: 121.2%;
   font-weight: bold;
-
-  display: flex;
-  align-items: center;
+  padding: 20px 0;
   text-transform: uppercase;
   color: #1a202c;
+  width: 90%;
 }
 
 .main-text {
-  position: absolute;
-  width: 534px;
-  height: 142.96px;
-  left: 61px;
-  top: 480px;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 160%;
-
-  display: flex;
-  align-items: center;
   letter-spacing: -0.02em;
-
   color: #1a202c;
-
-  opacity: 0.45;
+  opacity: 0.8;
+  width: 35em;
+  padding: 30px 0;
 }
 
-.go-to-our-button {
+.main-button {
   flex-direction: row;
   justify-content: center;
   padding: 0px 20px;
   gap: 8px;
-
-  position: absolute;
-  width: 150px;
   height: 48.39px;
-  right: 1229px;
-  top: 643.61px;
-
   background: #ffffff;
   border-radius: 4px;
   font-family: "Plus Jakarta Sans";
@@ -134,43 +111,17 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
-
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: -0.02em;
   color: #1a202c;
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.buy-cards-button {
-  position: absolute;
-  width: 106.97px;
-  height: 26.39px;
-  left: 243.51px;
-  top: 654.61px;
-
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 150%;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: -0.02em;
-
-  color: #1a202c;
-}
 .main-img {
-  position: absolute;
   width: 638px;
   height: 508px;
-  left: 743px;
-  top: 226px;
-
   background: url(ash-leaves-anime.jpg);
   border-radius: 100px 0px 0px 0px;
 }
@@ -197,7 +148,6 @@ a {
 }
 
 .vision {
-  
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -213,8 +163,4 @@ a {
   flex-direction: column;
   justify-content: space-between;
   height: 65%;
-}
-
-.footer-item-list {
-
 }
