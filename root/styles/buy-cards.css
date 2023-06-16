@@ -55,7 +55,7 @@ a {
   line-height: 150%;
 
   letter-spacing: -0.03em;
-
+  cursor: pointer;
   color: #306bb3;
   width: 82px;
   border-radius: 4px;
