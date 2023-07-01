@@ -97,14 +97,14 @@ section {
   width: 100%;
   padding-bottom: 1%;
   margin-bottom: 1%;
-  border-bottom: 2px double #90a3bf;
+  border-bottom: 2px #90a3bf;
   text-align: center;
 }
 
 .filter-option:hover {
   color: #1a202c;
   font-weight: bold;
-  border-bottom: 2px double #1a202c;
+  border-bottom: 2px #1a202c;
 }
 
 /* cards */
