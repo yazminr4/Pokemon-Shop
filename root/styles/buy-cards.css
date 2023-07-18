@@ -81,13 +81,16 @@ section {
 }
 
 .filter {
-  margin: 2% 0px;
+  /* margin: 2% 0px;
   width: 90%;
   display: flex;
   justify-content: space-around;
   padding-bottom: 1%;
   margin-bottom: 1%;
-  border-bottom: 2px double #90a3bf;
+  border-bottom: 2px double #90a3bf; */
+  display: flex;
+    justify-content: space-around;
+    width: 90%;
 }
 
 .filter-option {
@@ -110,27 +113,40 @@ section {
 /* cards */
 
 .cards-container {
-    display: flex;
-    flex-wrap:  wrap;
+    /* display: flex;
+    flex-wrap:  wrap; */
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin: 5% auto;
   }
 
-.cards-display {
+/* .cards-display {
   width: 20%;
   display: flex;
   flex-direction: column;
   margin: 2%;
   background-color: #DEE5ED;
   border-radius: 4px;
-}
+} */
 
 .card {
-  background-color: white;
+  /* background-color: white;
   width: 80%;
   align-self: center;
   border-radius: 4px;
-  padding: 7% 10%;
+  padding: 7% 10%; */
+  background-color: #dee5ed;
+    padding: 4%;
+    border: none;
+    border-radius: 10px;
+    margin: 5% 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.card-text {
+/* .card-text {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
@@ -142,16 +158,18 @@ section {
 
 .heart {
   height: 1em;
-}
+} */
 
 .pokemon-img {
   background-color: #ffffff;
-  padding: 8%;
+  border-radius: 4px;
+  /* padding: 8%;
   border: none;
   width: 90%;
   height: 80%;
-  border-radius: 4px;
-  margin: 5%;
+  margin: 5%; */
+ 
+  
 }
 
 .buy-button {
